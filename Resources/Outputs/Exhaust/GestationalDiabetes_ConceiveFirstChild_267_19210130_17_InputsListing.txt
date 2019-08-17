@@ -1,0 +1,27 @@
+
+timestamp: 1921_01_30
+activity_time: 1921-01-30
+person: 
+   Area: Castlefields and Ditherington
+   Country: England
+   PersonID: 17
+   Gender: Female
+   DOB: 2010-04-14 00:00:00
+   Surname: Mason
+   GivenName: Abby
+   School: Ditherington School
+   GP: Castlefields GP
+   Terminal: False
+   GestationalDiabetesStatus: ConceiveFirstChild
+   HasFirstChild: True
+   WeightInKg: {'quantity': 70, 'unit': 'kg'}
+   HeightInCm: {'quantity': 174, 'unit': 'cm'}
+----------------------------
+person['Hist']':  
+   HasFirstChild: [{'value': True, 'date': '2010-04-14T00:00:00'}]
+   WeightInKg: [{'value': {'quantity': 70, 'unit': 'kg'}, 'date': '2010-04-14T00:00:00'}]
+   HeightInCm: [{'value': {'quantity': 174, 'unit': 'cm'}, 'date': '2010-04-14T00:00:00'}]
+person['Last']':  
+   HasFirstChild: {'value': True, 'date': '2010-04-14T00:00:00'}
+   WeightInKg: {'value': {'quantity': 70, 'unit': 'kg'}, 'date': '2010-04-14T00:00:00'}
+   HeightInCm: {'value': {'quantity': 174, 'unit': 'cm'}, 'date': '2010-04-14T00:00:00'}

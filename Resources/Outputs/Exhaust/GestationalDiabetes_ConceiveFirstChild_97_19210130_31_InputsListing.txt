@@ -1,0 +1,27 @@
+
+timestamp: 1921_01_30
+activity_time: 1921-01-30
+person: 
+   Area: Monkmoor
+   Country: England
+   PersonID: 31
+   Gender: Female
+   DOB: 1938-03-05 00:00:00
+   Surname: Hopkins
+   GivenName: Sofia
+   School: Monkmoor School
+   GP: Monkmoor GP
+   Terminal: False
+   GestationalDiabetesStatus: ConceiveFirstChild
+   HasFirstChild: True
+   WeightInKg: {'quantity': 70, 'unit': 'kg'}
+   HeightInCm: {'quantity': 186, 'unit': 'cm'}
+----------------------------
+person['Hist']':  
+   HasFirstChild: [{'value': True, 'date': '1938-03-05T00:00:00'}]
+   WeightInKg: [{'value': {'quantity': 70, 'unit': 'kg'}, 'date': '1938-03-05T00:00:00'}]
+   HeightInCm: [{'value': {'quantity': 186, 'unit': 'cm'}, 'date': '1938-03-05T00:00:00'}]
+person['Last']':  
+   HasFirstChild: {'value': True, 'date': '1938-03-05T00:00:00'}
+   WeightInKg: {'value': {'quantity': 70, 'unit': 'kg'}, 'date': '1938-03-05T00:00:00'}
+   HeightInCm: {'value': {'quantity': 186, 'unit': 'cm'}, 'date': '1938-03-05T00:00:00'}

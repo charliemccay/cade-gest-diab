@@ -1,0 +1,27 @@
+
+timestamp: 1921_01_30
+activity_time: 1921-01-30
+person: 
+   Area: Radbrook
+   Country: England
+   PersonID: 39
+   Gender: Female
+   DOB: 1988-06-11 00:00:00
+   Surname: Whittaker
+   GivenName: Ruby
+   School: Radbrook School
+   GP: Radbrook GP
+   Terminal: False
+   GestationalDiabetesStatus: ConceiveFirstChild
+   HasFirstChild: True
+   WeightInKg: {'quantity': 53, 'unit': 'kg'}
+   HeightInCm: {'quantity': 195, 'unit': 'cm'}
+----------------------------
+person['Hist']':  
+   HasFirstChild: [{'value': True, 'date': '1988-06-11T00:00:00'}]
+   WeightInKg: [{'value': {'quantity': 53, 'unit': 'kg'}, 'date': '1988-06-11T00:00:00'}]
+   HeightInCm: [{'value': {'quantity': 195, 'unit': 'cm'}, 'date': '1988-06-11T00:00:00'}]
+person['Last']':  
+   HasFirstChild: {'value': True, 'date': '1988-06-11T00:00:00'}
+   WeightInKg: {'value': {'quantity': 53, 'unit': 'kg'}, 'date': '1988-06-11T00:00:00'}
+   HeightInCm: {'value': {'quantity': 195, 'unit': 'cm'}, 'date': '1988-06-11T00:00:00'}

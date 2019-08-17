@@ -1,0 +1,27 @@
+
+timestamp: 1921_01_30
+activity_time: 1921-01-30
+person: 
+   Area: Abbey
+   Country: England
+   PersonID: 0
+   Gender: Female
+   DOB: 1993-09-13 00:00:00
+   Surname: McCarthy
+   GivenName: Bethany
+   School: Abbey School
+   GP: Abbey GP
+   Terminal: False
+   GestationalDiabetesStatus: ConceiveFirstChild
+   HasFirstChild: True
+   WeightInKg: {'quantity': 66, 'unit': 'kg'}
+   HeightInCm: {'quantity': 165, 'unit': 'cm'}
+----------------------------
+person['Hist']':  
+   HasFirstChild: [{'value': True, 'date': '1993-09-13T00:00:00'}]
+   WeightInKg: [{'value': {'quantity': 66, 'unit': 'kg'}, 'date': '1993-09-13T00:00:00'}]
+   HeightInCm: [{'value': {'quantity': 165, 'unit': 'cm'}, 'date': '1993-09-13T00:00:00'}]
+person['Last']':  
+   HasFirstChild: {'value': True, 'date': '1993-09-13T00:00:00'}
+   WeightInKg: {'value': {'quantity': 66, 'unit': 'kg'}, 'date': '1993-09-13T00:00:00'}
+   HeightInCm: {'value': {'quantity': 165, 'unit': 'cm'}, 'date': '1993-09-13T00:00:00'}

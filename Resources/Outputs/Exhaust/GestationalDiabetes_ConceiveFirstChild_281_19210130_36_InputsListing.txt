@@ -1,0 +1,27 @@
+
+timestamp: 1921_01_30
+activity_time: 1921-01-30
+person: 
+   Area: Quarry and Coton Hill
+   Country: England
+   PersonID: 36
+   Gender: Female
+   DOB: 2018-02-26 00:00:00
+   Surname: Oliver
+   GivenName: Elise
+   School: Coton Hill School
+   GP: Quarry GP
+   Terminal: False
+   GestationalDiabetesStatus: ConceiveFirstChild
+   HasFirstChild: True
+   WeightInKg: {'quantity': 46, 'unit': 'kg'}
+   HeightInCm: {'quantity': 162, 'unit': 'cm'}
+----------------------------
+person['Hist']':  
+   HasFirstChild: [{'value': True, 'date': '2018-02-26T00:00:00'}]
+   WeightInKg: [{'value': {'quantity': 46, 'unit': 'kg'}, 'date': '2018-02-26T00:00:00'}]
+   HeightInCm: [{'value': {'quantity': 162, 'unit': 'cm'}, 'date': '2018-02-26T00:00:00'}]
+person['Last']':  
+   HasFirstChild: {'value': True, 'date': '2018-02-26T00:00:00'}
+   WeightInKg: {'value': {'quantity': 46, 'unit': 'kg'}, 'date': '2018-02-26T00:00:00'}
+   HeightInCm: {'value': {'quantity': 162, 'unit': 'cm'}, 'date': '2018-02-26T00:00:00'}

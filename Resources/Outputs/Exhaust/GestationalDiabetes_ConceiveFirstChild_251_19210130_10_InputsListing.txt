@@ -1,0 +1,27 @@
+
+timestamp: 1921_01_30
+activity_time: 1921-01-30
+person: 
+   Area: Belle Vue
+   Country: England
+   PersonID: 10
+   Gender: Female
+   DOB: 2007-07-24 00:00:00
+   Surname: Frost
+   GivenName: Tia
+   School: Belle Vue School
+   GP: Belle Vue GP
+   Terminal: False
+   GestationalDiabetesStatus: ConceiveFirstChild
+   HasFirstChild: True
+   WeightInKg: {'quantity': 98, 'unit': 'kg'}
+   HeightInCm: {'quantity': 188, 'unit': 'cm'}
+----------------------------
+person['Hist']':  
+   HasFirstChild: [{'value': True, 'date': '2007-07-24T00:00:00'}]
+   WeightInKg: [{'value': {'quantity': 98, 'unit': 'kg'}, 'date': '2007-07-24T00:00:00'}]
+   HeightInCm: [{'value': {'quantity': 188, 'unit': 'cm'}, 'date': '2007-07-24T00:00:00'}]
+person['Last']':  
+   HasFirstChild: {'value': True, 'date': '2007-07-24T00:00:00'}
+   WeightInKg: {'value': {'quantity': 98, 'unit': 'kg'}, 'date': '2007-07-24T00:00:00'}
+   HeightInCm: {'value': {'quantity': 188, 'unit': 'cm'}, 'date': '2007-07-24T00:00:00'}

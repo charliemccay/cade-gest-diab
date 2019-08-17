@@ -1,0 +1,27 @@
+
+timestamp: 1921_01_30
+activity_time: 1921-01-30
+person: 
+   Area: Quarry and Coton Hill
+   Country: England
+   PersonID: 38
+   Gender: Female
+   DOB: 1969-07-27 00:00:00
+   Surname: Walsh
+   GivenName: Sophie
+   School: Coton Hill School
+   GP: Quarry GP
+   Terminal: False
+   GestationalDiabetesStatus: ConceiveFirstChild
+   HasFirstChild: True
+   WeightInKg: {'quantity': 101, 'unit': 'kg'}
+   HeightInCm: {'quantity': 187, 'unit': 'cm'}
+----------------------------
+person['Hist']':  
+   HasFirstChild: [{'value': True, 'date': '1969-07-27T00:00:00'}]
+   WeightInKg: [{'value': {'quantity': 101, 'unit': 'kg'}, 'date': '1969-07-27T00:00:00'}]
+   HeightInCm: [{'value': {'quantity': 187, 'unit': 'cm'}, 'date': '1969-07-27T00:00:00'}]
+person['Last']':  
+   HasFirstChild: {'value': True, 'date': '1969-07-27T00:00:00'}
+   WeightInKg: {'value': {'quantity': 101, 'unit': 'kg'}, 'date': '1969-07-27T00:00:00'}
+   HeightInCm: {'value': {'quantity': 187, 'unit': 'cm'}, 'date': '1969-07-27T00:00:00'}

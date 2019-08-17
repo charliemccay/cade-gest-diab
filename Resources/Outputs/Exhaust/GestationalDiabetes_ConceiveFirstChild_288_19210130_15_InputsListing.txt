@@ -1,0 +1,27 @@
+
+timestamp: 1921_01_30
+activity_time: 1921-01-30
+person: 
+   Area: Castlefields and Ditherington
+   Country: England
+   PersonID: 15
+   Gender: Female
+   DOB: 2015-08-23 00:00:00
+   Surname: Johnston
+   GivenName: Jessica
+   School: Ditherington School
+   GP: Castlefields GP
+   Terminal: False
+   GestationalDiabetesStatus: ConceiveFirstChild
+   HasFirstChild: True
+   WeightInKg: {'quantity': 74, 'unit': 'kg'}
+   HeightInCm: {'quantity': 157, 'unit': 'cm'}
+----------------------------
+person['Hist']':  
+   HasFirstChild: [{'value': True, 'date': '2015-08-23T00:00:00'}]
+   WeightInKg: [{'value': {'quantity': 74, 'unit': 'kg'}, 'date': '2015-08-23T00:00:00'}]
+   HeightInCm: [{'value': {'quantity': 157, 'unit': 'cm'}, 'date': '2015-08-23T00:00:00'}]
+person['Last']':  
+   HasFirstChild: {'value': True, 'date': '2015-08-23T00:00:00'}
+   WeightInKg: {'value': {'quantity': 74, 'unit': 'kg'}, 'date': '2015-08-23T00:00:00'}
+   HeightInCm: {'value': {'quantity': 157, 'unit': 'cm'}, 'date': '2015-08-23T00:00:00'}

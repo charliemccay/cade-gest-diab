@@ -1,0 +1,27 @@
+
+timestamp: 1921_01_30
+activity_time: 1921-01-30
+person: 
+   Area: Sutton and Reabrook
+   Country: England
+   PersonID: 46
+   Gender: Female
+   DOB: 1964-03-06 00:00:00
+   Surname: Todd
+   GivenName: Elizabeth
+   School: Reabrook School
+   GP: Sutton GP
+   Terminal: False
+   GestationalDiabetesStatus: ConceiveFirstChild
+   HasFirstChild: True
+   WeightInKg: {'quantity': 94, 'unit': 'kg'}
+   HeightInCm: {'quantity': 197, 'unit': 'cm'}
+----------------------------
+person['Hist']':  
+   HasFirstChild: [{'value': True, 'date': '1964-03-06T00:00:00'}]
+   WeightInKg: [{'value': {'quantity': 94, 'unit': 'kg'}, 'date': '1964-03-06T00:00:00'}]
+   HeightInCm: [{'value': {'quantity': 197, 'unit': 'cm'}, 'date': '1964-03-06T00:00:00'}]
+person['Last']':  
+   HasFirstChild: {'value': True, 'date': '1964-03-06T00:00:00'}
+   WeightInKg: {'value': {'quantity': 94, 'unit': 'kg'}, 'date': '1964-03-06T00:00:00'}
+   HeightInCm: {'value': {'quantity': 197, 'unit': 'cm'}, 'date': '1964-03-06T00:00:00'}

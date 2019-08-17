@@ -1,0 +1,27 @@
+
+timestamp: 1921_01_30
+activity_time: 1921-01-30
+person: 
+   Area: Copthorne
+   Country: England
+   PersonID: 23
+   Gender: Female
+   DOB: 1998-03-08 00:00:00
+   Surname: Booth
+   GivenName: Aimee
+   School: Copthorne School
+   GP: Copthorne GP
+   Terminal: False
+   GestationalDiabetesStatus: ConceiveFirstChild
+   HasFirstChild: True
+   WeightInKg: {'quantity': 82, 'unit': 'kg'}
+   HeightInCm: {'quantity': 158, 'unit': 'cm'}
+----------------------------
+person['Hist']':  
+   HasFirstChild: [{'value': True, 'date': '1998-03-08T00:00:00'}]
+   WeightInKg: [{'value': {'quantity': 82, 'unit': 'kg'}, 'date': '1998-03-08T00:00:00'}]
+   HeightInCm: [{'value': {'quantity': 158, 'unit': 'cm'}, 'date': '1998-03-08T00:00:00'}]
+person['Last']':  
+   HasFirstChild: {'value': True, 'date': '1998-03-08T00:00:00'}
+   WeightInKg: {'value': {'quantity': 82, 'unit': 'kg'}, 'date': '1998-03-08T00:00:00'}
+   HeightInCm: {'value': {'quantity': 158, 'unit': 'cm'}, 'date': '1998-03-08T00:00:00'}

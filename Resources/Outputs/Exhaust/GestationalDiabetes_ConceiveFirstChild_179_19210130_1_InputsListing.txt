@@ -1,0 +1,27 @@
+
+timestamp: 1921_01_30
+activity_time: 1921-01-30
+person: 
+   Area: Abbey
+   Country: England
+   PersonID: 1
+   Gender: Female
+   DOB: 1971-03-28 00:00:00
+   Surname: May
+   GivenName: Elizabeth
+   School: Abbey School
+   GP: Abbey GP
+   Terminal: False
+   GestationalDiabetesStatus: ConceiveFirstChild
+   HasFirstChild: True
+   WeightInKg: {'quantity': 79, 'unit': 'kg'}
+   HeightInCm: {'quantity': 181, 'unit': 'cm'}
+----------------------------
+person['Hist']':  
+   HasFirstChild: [{'value': True, 'date': '1971-03-28T00:00:00'}]
+   WeightInKg: [{'value': {'quantity': 79, 'unit': 'kg'}, 'date': '1971-03-28T00:00:00'}]
+   HeightInCm: [{'value': {'quantity': 181, 'unit': 'cm'}, 'date': '1971-03-28T00:00:00'}]
+person['Last']':  
+   HasFirstChild: {'value': True, 'date': '1971-03-28T00:00:00'}
+   WeightInKg: {'value': {'quantity': 79, 'unit': 'kg'}, 'date': '1971-03-28T00:00:00'}
+   HeightInCm: {'value': {'quantity': 181, 'unit': 'cm'}, 'date': '1971-03-28T00:00:00'}

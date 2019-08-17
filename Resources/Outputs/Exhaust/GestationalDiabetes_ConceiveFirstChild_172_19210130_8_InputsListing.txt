@@ -1,0 +1,27 @@
+
+timestamp: 1921_01_30
+activity_time: 1921-01-30
+person: 
+   Area: Battlefield
+   Country: England
+   PersonID: 8
+   Gender: Female
+   DOB: 1972-04-20 00:00:00
+   Surname: Pollard
+   GivenName: Jasmine
+   School: Battlefield School
+   GP: Battlefield GP
+   Terminal: False
+   GestationalDiabetesStatus: ConceiveFirstChild
+   HasFirstChild: True
+   WeightInKg: {'quantity': 99, 'unit': 'kg'}
+   HeightInCm: {'quantity': 192, 'unit': 'cm'}
+----------------------------
+person['Hist']':  
+   HasFirstChild: [{'value': True, 'date': '1972-04-20T00:00:00'}]
+   WeightInKg: [{'value': {'quantity': 99, 'unit': 'kg'}, 'date': '1972-04-20T00:00:00'}]
+   HeightInCm: [{'value': {'quantity': 192, 'unit': 'cm'}, 'date': '1972-04-20T00:00:00'}]
+person['Last']':  
+   HasFirstChild: {'value': True, 'date': '1972-04-20T00:00:00'}
+   WeightInKg: {'value': {'quantity': 99, 'unit': 'kg'}, 'date': '1972-04-20T00:00:00'}
+   HeightInCm: {'value': {'quantity': 192, 'unit': 'cm'}, 'date': '1972-04-20T00:00:00'}
